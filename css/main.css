@@ -1,0 +1,157 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+*{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+
+  font-size: 62.5%;
+
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+
+
+.container {
+  max-width: 550px;
+  width: 90%;
+  margin: 0 auto;
+  background: linear-gradient(to bottom,#FFFFFF,#F6F7F8);
+
+  animation: transitiona 0.5s;
+
+}
+
+
+/* HEADER PLACE*/
+header {
+  display: flex;
+  justify-content: space-between;
+  min-height:81px ;
+
+  align-items: center;
+  padding: 0 2em;
+
+
+}
+header .logo{
+  max-width: 8.2rem;
+  max-height:4.2rem ;
+  width: 100%;
+
+}
+header .profile-icon{
+  width: 100%;
+  max-width: 4.121rem;
+  max-height: 4.121rem;
+}
+header .menu-icon{
+  width: 100%;
+  max-width: 3.4rem;
+  max-height: 3.4rem;
+}
+/* MAIN PLACE*/
+main {
+  position  : relative;
+
+}
+main img{
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 1.2rem;
+  animation: transitiona 1s ;
+}
+.text{
+  position: absolute;
+  top: 97%;
+  transform: translateY( -97%);
+  color: #F8F8F8;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+
+}
+.dog-name,.para{
+  margin:0;
+  font-family: 'Poppins', serif;
+}
+.dog-name{
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #F8F8F8;
+}
+.para{
+  color :rgba(183,183,183,1);
+}
+
+/*SECTION PLACE*/
+section{
+  min-height:100px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+.image-box-1 {
+  border-radius: 50%;
+  padding: 2em;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  margin-left: 1em;
+
+
+
+  transform: scale(1);
+  transition:all 0.25s;
+
+}
+
+.image-cross-container:hover, .image-cross-container:focus {
+  background-color: #FFE7EF;
+  transform: scale(1.1);
+}
+.image-heart-container:hover, .image-heart-container:focus {
+  background-color: #DBFFF4;
+  transform: scale(1.1);
+
+}
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@keyframes transitiona {
+  0%   {opacity: 0;}
+
+  100% {opacity: 1;}
+}
