@@ -28,14 +28,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## À propos du projet
-
-![image](https://user-images.githubusercontent.com/98128042/187047318-c1ddf3e8-4b74-429f-955a-52c86870af1d.png)
-
-## Un apercu global du projet
 <div align="center">
 
-![2022-07-07_21-26-14_AdobeExpress (1)](https://user-images.githubusercontent.com/98128042/177856837-66446aef-2231-4015-91dc-740e9c50e343.gif)
+![image](https://user-images.githubusercontent.com/98128042/187047318-c1ddf3e8-4b74-429f-955a-52c86870af1d.png)
 </div>
+## Un apercu global du projet
+
 
 * Ce project est fait afin  de s'ameliorer et maitriser le Html CSS,JavaScript c est un site de 1 page HTML ou on recopie le front de tinder et le scroll de tinder
 clickez <a name="general-info" href="https://meyflex.github.io/TinDog
